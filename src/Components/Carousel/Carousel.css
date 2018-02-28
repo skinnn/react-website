@@ -1,0 +1,24 @@
+
+/* Carousel fixed to the top */
+.fixedCarousel-pocetna{
+  min-height: 150px;
+  margin: auto;
+}
+
+.carousel-inner-pocetna{
+  min-height: 150px;
+  margin: auto;
+}
+
+.slides{
+  min-height: 150px;
+}
+
+@media only screen and (max-width: 490px){
+  .fixedCarousel-pocetna{
+    height: 150px;
+  },
+  .carousel-inner-pocetna{
+    height: 150px;
+  }
+}

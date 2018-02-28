@@ -1,0 +1,109 @@
+
+/* Navbar static*/
+.navbar-brand{
+  max-width: 180px;
+  height: 80px;
+  padding: 0;
+}
+
+.navBar{
+  height: 81px;
+  margin-bottom: 0px;
+  background-color: black;
+}
+
+.navBar .navA > li > a,
+.navbar-brand{
+  padding-top: 0;
+  padding-bottom: 0;
+  line-height: 80px;
+}
+
+.navbarLink{
+  color: #f0670c; /*#f0670c*/
+}
+
+#navbar > .navA > li > .navbarLinks:hover{
+  opacity: 0.9;
+  color: #f17624;
+}
+
+.navActive{
+  background-color: #191919;
+}
+
+ .dropNavActive{
+   background-color: #f3853c;
+ }
+
+.dropdown-menu{
+  background-color: #f0670c;
+}
+
+.dropdown-menu > li > a{
+  color: black;
+}
+
+@media only screen and (max-width: 767px){
+  .navbar-collapse {
+    max-width: 200px;
+    border: 2px solid;
+    border-radius: 3px;
+    background-color: black;
+  }
+
+  .ulDropLinkovi{
+    width: 130px;
+    list-style-type: none;
+    padding: 5px;
+    margin-top: 5px;
+    margin-left: 15px;
+  }
+
+  .ulDropLinkovi > li{
+    display: block;
+    text-decoration: none;
+    line-height: 40px;
+  }
+
+  .ulDropLinkovi > li > a > img {
+    border-radius: 5px;
+  }
+
+  .dropDot1,
+  .dropDot2,
+  .dropDot3{
+    margin-right: 5px;
+    margin-left: 5px;
+    vertical-align: middle;
+    height: 5px;
+    width: 5px;
+    background-color: #202020;
+    border-radius: 50%;
+    display: inline-block;
+  }
+
+  .ulDropLinkovi li:hover .dropDot1{
+    background-color: #e5e5e5;
+  }
+  .ulDropLinkovi li:hover .dropDot2{
+    background-color: #e5e5e5;
+  }
+  .ulDropLinkovi li:hover .dropDot3{
+    background-color: #e5e5e5;
+  }
+}
+
+@media only screen and (max-width: 500px){
+  .navbar-header > a > img{
+    width: 130px;
+    height: 60px;
+    margin-top: 15px;
+  }
+}
+
+@media only screen and (min-width: 766px){
+  .ulDropLinkovi > li{
+    display:none;
+  }
+}
